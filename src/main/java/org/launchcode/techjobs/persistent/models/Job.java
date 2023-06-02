@@ -5,9 +5,6 @@ import javax.persistence.*;
 @Entity
 public class Job extends AbstractEntity{
 
-    @Id
-    @GeneratedValue
-
     @ManyToOne
     private Employer employer;
 
